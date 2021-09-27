@@ -5,8 +5,8 @@ import (
 	"os"
 	"text/tabwriter"
 
-	"github.com/dtan4/valec/aws"
-	"github.com/dtan4/valec/secret"
+	"github.com/wantedly/valec/aws"
+	"github.com/wantedly/valec/secret"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

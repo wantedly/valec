@@ -5,9 +5,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/dtan4/valec/aws"
-	"github.com/dtan4/valec/secret"
-	"github.com/dtan4/valec/util"
+	"github.com/wantedly/valec/aws"
+	"github.com/wantedly/valec/secret"
+	"github.com/wantedly/valec/util"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

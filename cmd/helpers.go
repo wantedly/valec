@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/dtan4/valec/aws"
-	"github.com/dtan4/valec/secret"
+	"github.com/wantedly/valec/aws"
+	"github.com/wantedly/valec/secret"
 	"github.com/pkg/errors"
 )
 

@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/dtan4/valec/util"
+	"github.com/wantedly/valec/util"
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v2"
 )

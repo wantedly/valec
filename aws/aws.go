@@ -5,8 +5,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	dynamodbapi "github.com/aws/aws-sdk-go/service/dynamodb"
 	kmsapi "github.com/aws/aws-sdk-go/service/kms"
-	"github.com/dtan4/valec/aws/dynamodb"
-	"github.com/dtan4/valec/aws/kms"
+	"github.com/wantedly/valec/aws/dynamodb"
+	"github.com/wantedly/valec/aws/kms"
 	"github.com/pkg/errors"
 )
 

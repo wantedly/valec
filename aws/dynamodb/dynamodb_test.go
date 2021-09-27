@@ -7,8 +7,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
-	"github.com/dtan4/valec/aws/mock"
-	"github.com/dtan4/valec/secret"
+	"github.com/wantedly/valec/aws/mock"
+	"github.com/wantedly/valec/secret"
 	"github.com/golang/mock/gomock"
 )
 

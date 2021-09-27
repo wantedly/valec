@@ -294,8 +294,8 @@ Failed to validate secrets. filename=tmp/hoge.yaml: Some secrets are invalid.
 Retrieve this repository and build using `make`.
 
 ```bash
-$ go get -d github.com/dtan4/valec
-$ cd $GOPATH/src/github.com/dtan4/valec
+$ go get -d github.com/wantedly/valec
+$ cd $GOPATH/src/github.com/wantedly/valec
 $ make deps
 $ make
 ```

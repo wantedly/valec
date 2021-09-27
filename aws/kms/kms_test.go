@@ -5,7 +5,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/kms"
-	"github.com/dtan4/valec/aws/mock"
+	"github.com/wantedly/valec/aws/mock"
 	"github.com/golang/mock/gomock"
 )
 

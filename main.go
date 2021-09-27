@@ -1,6 +1,6 @@
 package main
 
-import "github.com/dtan4/valec/cmd"
+import "github.com/wantedly/valec/cmd"
 
 func main() {
 	cmd.Execute()

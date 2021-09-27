@@ -3,7 +3,7 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/dtan4/valec/version"
+	"github.com/wantedly/valec/version"
 	"github.com/spf13/cobra"
 )
 
