@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/wantedly/valec/util"
 	"github.com/pkg/errors"
+	"github.com/wantedly/valec/util"
 	"gopkg.in/yaml.v2"
 )
 

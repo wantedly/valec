@@ -6,8 +6,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/aws/aws-sdk-go/service/dynamodb/dynamodbiface"
-	"github.com/wantedly/valec/secret"
 	"github.com/pkg/errors"
+	"github.com/wantedly/valec/secret"
 )
 
 const (

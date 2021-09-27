@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/wantedly/valec/aws"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
+	"github.com/wantedly/valec/aws"
 )
 
 const (

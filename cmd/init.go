@@ -3,10 +3,10 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/wantedly/valec/aws"
-	"github.com/wantedly/valec/secret"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
+	"github.com/wantedly/valec/aws"
+	"github.com/wantedly/valec/secret"
 )
 
 // initCmd represents the init command

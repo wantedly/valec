@@ -6,9 +6,9 @@ import (
 	"os"
 	"strings"
 
+	"github.com/pkg/errors"
 	"github.com/wantedly/valec/aws"
 	"github.com/wantedly/valec/secret"
-	"github.com/pkg/errors"
 )
 
 func dumpAll(secrets secret.Secrets, quote bool) ([]string, error) {

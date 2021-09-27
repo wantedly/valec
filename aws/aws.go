@@ -5,9 +5,9 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	dynamodbapi "github.com/aws/aws-sdk-go/service/dynamodb"
 	kmsapi "github.com/aws/aws-sdk-go/service/kms"
+	"github.com/pkg/errors"
 	"github.com/wantedly/valec/aws/dynamodb"
 	"github.com/wantedly/valec/aws/kms"
-	"github.com/pkg/errors"
 )
 
 var (

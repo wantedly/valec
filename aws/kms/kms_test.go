@@ -5,8 +5,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/kms"
-	"github.com/wantedly/valec/aws/mock"
 	"github.com/golang/mock/gomock"
+	"github.com/wantedly/valec/aws/mock"
 )
 
 func TestNewClient(t *testing.T) {
