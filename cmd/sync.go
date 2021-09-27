@@ -117,7 +117,7 @@ func syncFile(filename, namespace string) error {
 
 		if !syncOpts.dryRun {
 			if err := aws.DynamoDB.Insert(rootOpts.tableName, namespace, updated); err != nil {
-				return errors.Wrapf(err, "Failed to insert secrets. namespace=%s")
+				return errors.Wrapf(err, "Failed to insert secrets. namespace=%s", namespace)
 			}
 
 			fmt.Printf("  %d secrets were successfully updated.\n", len(updated))
@@ -132,7 +132,7 @@ func syncFile(filename, namespace string) error {
 
 		if !syncOpts.dryRun {
 			if err := aws.DynamoDB.Insert(rootOpts.tableName, namespace, added); err != nil {
-				return errors.Wrapf(err, "Failed to insert secrets. namespace=%s")
+				return errors.Wrapf(err, "Failed to insert secrets. namespace=%s", namespace)
 			}
 
 			fmt.Printf("  %d secrets were successfully added.\n", len(added))

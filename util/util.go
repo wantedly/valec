@@ -92,7 +92,7 @@ func ListYAMLFiles(dirname string) ([]string, error) {
 
 	fs, err := ioutil.ReadDir(dirname)
 	if err != nil {
-		return []string{}, errors.Wrapf(err, "Failed to open directory. dirname=%s")
+		return []string{}, errors.Wrapf(err, "Failed to open directory. dirname=%s", dirname)
 	}
 
 	for _, file := range fs {

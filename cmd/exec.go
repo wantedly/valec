@@ -39,7 +39,7 @@ func doExec(cmd *cobra.Command, args []string) error {
 		}
 
 		if err := os.Setenv(secret.Key, plainValue); err != nil {
-			return errors.Wrapf(err, "Failed to set new enviornment variable. key=%q")
+			return errors.Wrapf(err, "Failed to set new enviornment variable. key=%q", secret.Key)
 		}
 	}
 

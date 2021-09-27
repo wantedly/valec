@@ -119,7 +119,7 @@ func TestSwap(t *testing.T) {
 	secrets.Swap(i, j)
 
 	if !reflect.DeepEqual(secrets, expected) {
-		t.Errorf("Swap result is wrong. expected: %q, actual: %q", expected, secrets)
+		t.Errorf("Swap result is wrong. expected: %v, actual: %v", expected, secrets)
 	}
 }
 
@@ -392,6 +392,6 @@ func TestMapToList(t *testing.T) {
 	secrets := MapToList(secretMap)
 
 	if !reflect.DeepEqual(secrets, expected) {
-		t.Errorf("Secret list does not match. expected: %q, actual:%q", expected, secrets)
+		t.Errorf("Secret list does not match. expected: %v, actual:%v", expected, secrets)
 	}
 }
