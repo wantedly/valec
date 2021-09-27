@@ -1,3 +1,9 @@
+# [v0.7.1](https://github.com/dtan4/valec/releases/tag/v0.7.1) (2021-09-27)
+
+- Forked from [github.com/dtan4/valec](https://github.com/dtan4/valec)
+- Set up GitHub Actions [#1](https://github.com/wantedly/valec/pull/1)
+- Build for M1 Mac [#2](https://github.com/wantedly/valec/pull/2)
+
 # [v0.7.0](https://github.com/dtan4/valec/releases/tag/v0.7.0) (2018-02-06)
 
 - Overwrite envs correctly by using os.Setenv [#65](https://github.com/dtan4/valec/pull/65)
