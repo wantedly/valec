@@ -30,7 +30,12 @@ clean:
 .PHONY: cross-build
 cross-build:
 	for os in darwin linux windows; do \
-		for arch in amd64 386; do \
+		for arch in amd64 386 arm64; do \
+			if [ $$os-$$arch = windows-arm64 ]; then \
+				continue; \
+			elif [ $$os-$$arch = darwin-386 ]; then \
+				continue; \
+			fi; \
 			GOOS=$$os GOARCH=$$arch go build -a -tags netgo -installsuffix netgo $(LDFLAGS) -o dist/$$os-$$arch/$(NAME); \
 		done; \
 	done
